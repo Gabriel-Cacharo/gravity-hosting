@@ -1,0 +1,133 @@
+.mainProductContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: #eee;
+  border-radius: 12px;
+
+  width: 350px;
+  height: 390px;
+  margin: 20px;
+
+  transition: all 200ms ease-in-out;
+
+  h5 {
+    height: 100%;
+    width: 40px;
+    writing-mode: vertical-rl;
+    background-color: $pink-color;
+    color: $white-color;
+    font-size: 2rem;
+    border-radius: 12px 0px 0px 12px;
+
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .mainProductInformations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 100%;
+
+    text-align: center;
+    padding: 0px 10px;
+
+    .mainProductImage {
+      margin-top: -60px;
+      color: $pink-color;
+
+      height: 120px;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 1rem;
+    }
+
+    ul li {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+
+      opacity: 0.8;
+
+      .iconMarginRight {
+        color: $red-color;
+      }
+    }
+
+    .mainProductPriceContainer {
+      span {
+        font-size: 1rem;
+        font-weight: 500;
+      }
+
+      h6 {
+        font-size: 1.7rem;
+        color: $red-color;
+        padding: 4px;
+        border-radius: 12px;
+
+        b {
+          font-size: 0.8rem;
+          color: $primary-color;
+        }
+      }
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background-color: $pink-color;
+      color: $white-color;
+
+      width: 90%;
+
+      font-size: 1.3rem;
+      padding: 8px 15px;
+      border-radius: 12px;
+
+      transition: all 200ms ease-in-out;
+
+      .buttonIcon {
+        margin-left: 10px;
+      }
+
+      &:hover {
+        background-color: $red-color;
+        filter: drop-shadow(0 0 1px $red-color-opacity)
+          drop-shadow(0 0 2px $red-color-opacity)
+          drop-shadow(0 0 4px $red-color-opacity);
+        // transform: translateY(-0.3rem);
+        transform: scale(1.02);
+
+        .buttonIcon {
+          animation: moveArrowToRight 0.8s infinite ease-in-out;
+        }
+      }
+    }
+  }
+
+  &:hover {
+    transform: scale(1.03);
+  }
+}
+
+// Animations
+@keyframes moveArrowToRight {
+  50% {
+    transform: translateX(0.4rem);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}

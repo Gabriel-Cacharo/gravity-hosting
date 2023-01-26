@@ -1,0 +1,126 @@
+// Dropdown Menu
+.MuiList-root {
+  width: 200px !important;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    margin-top: 10px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1rem;
+
+    &::after {
+      content: "";
+      height: 2px;
+      width: 80%;
+      position: absolute;
+      bottom: 0;
+      background-color: $pink-color;
+      filter: drop-shadow(0 0 1px #da00371f) drop-shadow(0 0 2px #da003733)
+        drop-shadow(0 0 4px #da003733);
+    }
+
+    img {
+      height: 32px;
+      margin-right: 10px;
+    }
+
+    .vpsImage {
+      height: 25px;
+    }
+  }
+}
+
+.MuiPaper-root {
+  margin-top: 10px;
+}
+
+// Header
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  height: 100px;
+  padding: 0px 10px;
+
+  img {
+    height: 56px;
+    width: 65px;
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      margin: 0px 20px;
+      cursor: pointer;
+
+      transition: all 200ms ease-in-out;
+
+      .iconMarginRight {
+        font-size: 1.2rem;
+      }
+
+      &:hover {
+        transform: translateX(0.3rem);
+
+        color: $pink-color;
+
+        .iconMarginRight {
+          color: $pink-color;
+          filter: drop-shadow(0 0 1px $pink-color-opacity)
+            drop-shadow(0 0 2px $pink-color-opacity)
+            drop-shadow(0 0 4px $pink-color-opacity);
+        }
+      }
+    }
+  }
+
+  button {
+    padding: 15px 40px;
+    font-size: 1rem;
+    font-weight: 500;
+
+    background-color: $pink-color;
+    color: $white-color;
+    border-radius: 12px;
+
+    transition: all 200ms ease-in-out;
+
+    .iconMarginRight {
+      font-size: 1.2rem;
+    }
+
+    &:hover {
+      background-color: $red-color;
+      transform: translateY(-0.2rem);
+      filter: drop-shadow(0 0 1px $red-color-opacity)
+        drop-shadow(0 0 2px $red-color-opacity)
+        drop-shadow(0 0 4px $red-color-opacity);
+    }
+  }
+}

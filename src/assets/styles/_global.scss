@@ -1,0 +1,38 @@
+body {
+  background-color: $white-color;
+  color: $primary-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+p,
+a,
+div,
+span,
+button {
+  font-family: "Roboto", sans-serif;
+}
+
+// Scrollbar
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: $secondary-color;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $pink-color;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $white-color;
+}

@@ -1,0 +1,85 @@
+.frequentlyAskedQuestionsSection {
+  background-color: #ddd;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  padding-bottom: 50px;
+
+  .frequentlyAskedQuestionsContainer {
+    @extend .flexSpaceEvenly;
+    flex-wrap: wrap;
+
+    width: 90%;
+    min-height: 500px;
+
+    img {
+      height: 500px;
+    }
+
+    .frequentlyAskedQuestions {
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+
+        width: 500px;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 8px;
+
+        font-size: 1.2rem;
+
+        transition: all 200ms ease-in-out;
+
+        .iconMarginRight {
+          color: $pink-color;
+        }
+
+        &:hover {
+          transform: scale(1.03);
+        }
+      }
+
+      div {
+        padding: 0px 20px;
+        width: 500px;
+        padding: 20px;
+        margin: 0px 10px;
+        position: relative;
+
+        background-color: #eee;
+        border-radius: 0px 12px 12px 0px;
+        opacity: 0.9;
+
+        animation: opacityAnimation 0.5s ease-in-out;
+
+        &::after {
+          content: "";
+          position: absolute;
+          height: 100%;
+          left: 0;
+          bottom: 0;
+          width: 2px;
+          background-color: $pink-color;
+          filter: drop-shadow(0 0 1px $pink-color-opacity)
+            drop-shadow(0 0 2px $pink-color-opacity)
+            drop-shadow(0 0 4px $pink-color-opacity);
+        }
+      }
+    }
+  }
+}
+
+// Animation
+@keyframes opacityAnimation {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

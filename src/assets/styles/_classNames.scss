@@ -1,0 +1,23 @@
+.iconMarginRight {
+  margin-right: 5px;
+
+  transition: all 200ms ease-in-out;
+}
+
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexSpaceEvenly {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.flexSpaceAround {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

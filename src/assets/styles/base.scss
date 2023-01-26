@@ -1,0 +1,34 @@
+// Global styles
+@import "./colors";
+@import "./reset";
+@import "./global";
+@import "./classNames";
+
+// Componentes
+@import "../../components/Header/styles";
+@import "../../components/MainProduct/styles";
+@import "../../components/Benefits/styles";
+@import "../../components/CommonQuestions/styles";
+@import "../../components/SectionHeader/styles";
+@import "../../components/Footer/styles";
+@import "../../components/Product/styles";
+@import "../../components/HeaderPromotion/styles";
+@import "../../components/ProductPageHeader/styles";
+@import "../../components/ServerProduct/styles";
+
+// Responsive Components
+@import "../../components/Header/responsive";
+@import "../../components/CommonQuestions/responsive";
+@import "../../components/Footer/responsive";
+@import "../../components/SectionHeader/responsive";
+@import "../../components/HeaderPromotion/responsive";
+@import "../../components/ProductPageHeader/responsive";
+@import "../../components/ServerProduct/responsive";
+@import "../../components/Benefits/responsive";
+
+// Pages
+@import "../../pages/HomePage/styles";
+@import "../../pages/ProductPage/styles";
+
+// Responsive Pages
+@import "../../pages/HomePage/responsive";

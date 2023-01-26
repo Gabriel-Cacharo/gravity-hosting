@@ -1,0 +1,140 @@
+.productContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  background-image: url("../../assets/images/waveBackgroundProduct.svg");
+  background-repeat: no-repeat;
+  background-size: 900px;
+  background-color: #eee;
+  border-radius: 15px 0px 15px 0px;
+
+  width: 350px;
+  height: 500px;
+  margin: 40px 30px;
+  padding: 20px;
+
+  transition: all 200ms ease-in-out;
+
+  img {
+    height: 150px;
+
+    margin-top: -80px;
+  }
+
+  .imageComputer {
+    height: 110px;
+    width: 160px;
+
+    margin-top: -50px !important;
+  }
+
+  .imageServer {
+    height: 120px;
+
+    margin-top: -50px !important;
+  }
+
+  .imageBot {
+    height: 120px;
+
+    margin-top: -50px !important;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      height: 2px;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: $pink-color;
+      filter: drop-shadow(0 0 1px $pink-color-opacity)
+        drop-shadow(0 0 2px $pink-color-opacity)
+        drop-shadow(0 0 4px $pink-color-opacity);
+    }
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      margin: 5px 0px;
+
+      .descriptionIcon {
+        font-size: 1.2rem;
+        color: $red-color;
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .priceContainer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    h4 {
+      font-size: 2rem;
+      color: $red-color;
+
+      line-height: 30px;
+    }
+
+    span {
+      font-size: 1rem;
+      font-weight: bold;
+    }
+  }
+
+  .buyButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+    padding: 10px 0px;
+    border: 2px solid $pink-color;
+    border-radius: 8px;
+
+    font-size: 1.2rem;
+
+    transition: all 250ms ease-in-out;
+
+    .iconMarginRight {
+      font-size: 1.1rem;
+      margin-right: 10px;
+      color: $red-color;
+    }
+
+    &:hover {
+      background-color: $pink-color;
+      color: $white-color;
+      cursor: pointer;
+
+      transform: scale(1.05);
+
+      .iconMarginRight {
+        color: $white-color;
+      }
+    }
+  }
+
+  &:hover {
+    transform: translateY(-0.3rem);
+  }
+}

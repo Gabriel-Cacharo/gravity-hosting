@@ -1,0 +1,29 @@
+@media (max-width: 690px) {
+  .headerPromotionContainer {
+    h6 {
+      font-size: 0.6rem;
+
+      .iconMarginRight {
+        font-size: 1.4rem;
+      }
+
+      span {
+        font-size: 0.65rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .headerPromotionContainer h6 {
+    flex-direction: column;
+
+    .iconMarginRight {
+      margin: 4px 0;
+    }
+
+    span {
+      margin: 5px 0px;
+    }
+  }
+}
