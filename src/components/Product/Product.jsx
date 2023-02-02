@@ -30,6 +30,10 @@ const Product = ({ name, price, list, type, buyLink }) => {
       )}
       <h3>{name}</h3>
 
+      <div className="priceContainer">
+        <span>R$</span> <h4>{price}</h4> <span>/mês</span>
+      </div>
+
       <ul>
         {list.map((listItem) => (
           <li key={listItem}>
@@ -37,10 +41,6 @@ const Product = ({ name, price, list, type, buyLink }) => {
           </li>
         ))}
       </ul>
-
-      <div className="priceContainer">
-        <span>R$</span> <h4>{price}</h4> <span>/mês</span>
-      </div>
 
       <a className="buyButton" href={buyLink}>
         <FaShoppingCart className="iconMarginRight" /> Comprar

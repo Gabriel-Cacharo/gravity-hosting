@@ -5,7 +5,7 @@ const HeaderPromotion = () => {
     <header className="headerPromotionContainer">
       <h6>
         <TbPlanet className="iconMarginRight" /> PROMOÇÃO DE INAUGURAÇÃO!
-        Utilize o cupom <span>10INAUGURACAO</span> para receber 10% de desconto!
+        Utilize o cupom <span>GRAVITY10</span> para receber 10% de desconto!
       </h6>
     </header>
   );

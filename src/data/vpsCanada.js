@@ -5,7 +5,7 @@ export const vpsCanadaProducts = [
     cpu: "1",
     price: "28,90",
     buyLink:
-      "http://cart.gravityhosting.com.br/store/servidores-vps/vps-eua-1gb",
+      "http://cart.gravityhosting.com.br/cart.php?a=add&pid=7&carttpl=standard_cart",
   },
   {
     ram: "2",
@@ -13,7 +13,7 @@ export const vpsCanadaProducts = [
     cpu: "2",
     price: "41,90",
     buyLink:
-      "http://cart.gravityhosting.com.br/store/servidores-vps/vps-eua-2gb",
+      "http://cart.gravityhosting.com.br/cart.php?a=add&pid=8&carttpl=standard_cart",
   },
   {
     ram: "4",
@@ -21,7 +21,7 @@ export const vpsCanadaProducts = [
     cpu: "3",
     price: "78,90",
     buyLink:
-      "http://cart.gravityhosting.com.br/store/servidores-vps/vps-eua-4gb",
+      "http://cart.gravityhosting.com.br/cart.php?a=add&pid=9&carttpl=standard_cart",
   },
   {
     ram: "6",
@@ -29,7 +29,7 @@ export const vpsCanadaProducts = [
     cpu: "4",
     price: "109,90",
     buyLink:
-      "http://cart.gravityhosting.com.br/store/servidores-vps/vps-eua-6gb",
+      "http://cart.gravityhosting.com.br/cart.php?a=add&pid=10&carttpl=standard_cart",
   },
   {
     ram: "8",
@@ -37,7 +37,7 @@ export const vpsCanadaProducts = [
     cpu: "5",
     price: "148,90",
     buyLink:
-      "http://cart.gravityhosting.com.br/store/servidores-vps/vps-eua-8gb",
+      "http://cart.gravityhosting.com.br/cart.php?a=add&pid=11&carttpl=standard_cart",
   },
   {
     ram: "10",
@@ -45,6 +45,6 @@ export const vpsCanadaProducts = [
     cpu: "6",
     price: "185,90",
     buyLink:
-      "http://cart.gravityhosting.com.br/store/servidores-vps/vps-eua-10gb",
+      "http://cart.gravityhosting.com.br/cart.php?a=add&pid=12&carttpl=standard_cart",
   },
 ];

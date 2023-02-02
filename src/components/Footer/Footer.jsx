@@ -43,7 +43,10 @@ const Footer = () => {
             >
               <FaInstagram />
             </a>
-            <a className="socialMedia">
+            <a
+              className="socialMedia"
+              href="https://twitter.com/gravityhosting_"
+            >
               <FaTwitter />
             </a>
           </div>

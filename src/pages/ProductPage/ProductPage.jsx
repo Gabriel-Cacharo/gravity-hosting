@@ -2,6 +2,8 @@ import { useParams } from "react-router-dom";
 
 import Eua from "../../assets/images/eua.png";
 import Brasil from "../../assets/images/Brasil.png";
+import Ubuntu from "../../assets/images/ubuntuImage.png";
+import Windows from "../../assets/images/windowsImage.png";
 
 import Product from "../../components/Product/Product";
 import ProductPageHeader from "../../components/ProductPageHeader/ProductPageHeader";
@@ -104,6 +106,25 @@ const ProductPage = () => {
           />
         </div>
       </div>
+
+      {product === "vps" && (
+        <div className="operationalSystemsContainer" data-aos="fade-in">
+          <SectionHeader
+            title="Sistemas Operacionais"
+            subtitle="Esses são os sistemas operacionais disponíveis para você colocar na sua VPS."
+          />
+
+          <div className="operationalSystems">
+            <div className="operationalSystem">
+              <img src={Windows} alt="Windows Image" />
+            </div>
+
+            <div className="operationalSystem">
+              <img src={Ubuntu} alt="Ubuntu Image" />
+            </div>
+          </div>
+        </div>
+      )}
 
       <CommonQuestions />
     </main>

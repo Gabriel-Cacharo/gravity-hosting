@@ -1,5 +1,6 @@
 .sectionHeader {
   text-align: center;
+  position: relative;
 
   margin: 50px 10px;
 
@@ -10,5 +11,16 @@
   p {
     font-size: 1.2rem;
     opacity: 0.7;
+  }
+
+  &:after {
+    content: "";
+    background-color: $pink-color;
+    width: 280px;
+    height: 2px;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translate(50%, -50%);
   }
 }

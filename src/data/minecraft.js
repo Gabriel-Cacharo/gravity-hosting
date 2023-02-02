@@ -1,20 +1,5 @@
 export const minecraftProducts = [
   {
-    name: "Minecraft 1GB",
-    price: "15,00",
-    type: "Minecraft",
-    list: [
-      "1GB RAM",
-      "AntiDDOs Gaming",
-      "5GB SSD NVME",
-      "1 Database",
-      "1 Backup",
-      "Ping médio de ~100ms",
-    ],
-    buyLink:
-      "http://cart.gravityhosting.com.br/store/hospedagem-de-minecraft/minecraft-eua-1gb",
-  },
-  {
     name: "Minecraft 2GB",
     price: "26,00",
     type: "Minecraft",
@@ -27,7 +12,7 @@ export const minecraftProducts = [
       "Ping médio de ~100ms",
     ],
     buyLink:
-      "http://cart.gravityhosting.com.br/store/hospedagem-de-minecraft/minecraft-eua-2gb",
+      "http://cart.gravityhosting.com.br/cart.php?a=add&pid=14&carttpl=standard_cart",
   },
   {
     name: "Minecraft 4GB",
@@ -42,7 +27,7 @@ export const minecraftProducts = [
       "Ping médio de ~100ms",
     ],
     buyLink:
-      "http://cart.gravityhosting.com.br/store/hospedagem-de-minecraft/minecraft-eua-4gb",
+      "http://cart.gravityhosting.com.br/cart.php?a=add&pid=15&carttpl=standard_cart",
   },
   {
     name: "Minecraft 6GB",
@@ -57,7 +42,7 @@ export const minecraftProducts = [
       "Ping médio de ~100ms",
     ],
     buyLink:
-      "http://cart.gravityhosting.com.br/store/hospedagem-de-minecraft/minecraft-eua-6gb",
+      "http://cart.gravityhosting.com.br/cart.php?a=add&pid=16&carttpl=standard_cart",
   },
   {
     name: "Minecraft 8GB",
@@ -72,6 +57,6 @@ export const minecraftProducts = [
       "Ping médio de ~100ms",
     ],
     buyLink:
-      "http://cart.gravityhosting.com.br/store/hospedagem-de-minecraft/minecraft-eua-8gb",
+      "http://cart.gravityhosting.com.br/cart.php?a=add&pid=17&carttpl=standard_cart",
   },
 ];

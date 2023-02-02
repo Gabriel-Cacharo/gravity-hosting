@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-import CanadaImage from "../../assets/images/canada.png";
+import EuaImage from "../../assets/images/eua.png";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 
 const ServerProduct = ({ serverProducts }) => {
@@ -27,7 +27,7 @@ const ServerProduct = ({ serverProducts }) => {
               <p data-title="DISCO SSD">{serverProduct.ssd}GB</p>
               <p data-title="ANTIDDOS">Incluso</p>
               <div className="imageContainer" data-title="LOCALIZAÇÃO ">
-                <img src={CanadaImage} alt="" />
+                <img src={EuaImage} alt="" />
               </div>
               <p data-title="PREÇO" style={{ fontSize: "1.3rem" }}>
                 <span>R$</span>
