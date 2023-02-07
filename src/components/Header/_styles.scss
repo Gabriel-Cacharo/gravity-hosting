@@ -115,6 +115,12 @@
       font-size: 1.2rem;
     }
 
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
     &:hover {
       background-color: $red-color;
       transform: translateY(-0.2rem);

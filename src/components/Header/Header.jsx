@@ -1,4 +1,4 @@
-import { BsPersonFill } from "react-icons/bs";
+import { BsPersonFill, BsFillBookmarkStarFill } from "react-icons/bs";
 import { FaServer, FaHome } from "react-icons/fa";
 import { HiOutlineStatusOnline } from "react-icons/hi";
 import { AiFillCloud } from "react-icons/ai";
@@ -98,6 +98,11 @@ const Header = () => {
 
           <li style={{ color: "#aaa" }}>
             <HiOutlineStatusOnline className="iconMarginRight" /> Status
+          </li>
+
+          <li>
+            <BsFillBookmarkStarFill className="iconMarginRight" />
+            <Link to="/terms">Termos</Link>
           </li>
         </ul>
       </nav>

@@ -1,0 +1,34 @@
+@media (max-width: 1600px) {
+  .termsPageContainer .termsContainer {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .termsPageContainer .termsContainer {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .termsPageContainer .termsContainer {
+    width: 100%;
+    align-items: center;
+  }
+
+  .termsPageContainer .termsContainer .termContainer {
+    min-width: 80%;
+    max-width: 80%;
+  }
+
+  .termsPageContainer .termsContainer .termContainer.floatRight {
+    align-self: center;
+  }
+}
+
+@media (max-width: 620px) {
+  .termsPageContainer .termsContainer .termContainer {
+    min-width: 95%;
+    max-width: 95%;
+  }
+}

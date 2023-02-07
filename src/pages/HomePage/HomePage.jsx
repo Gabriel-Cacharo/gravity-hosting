@@ -47,7 +47,7 @@ function Home() {
             name="Minecraft"
             description="Hospedagens para seu servidor de Minecraft com processador de ponta e armazenamento 100% SSD."
             list={["AntiDDOs Gaming", "Processador de ponta", "Livre de LAG"]}
-            value="15,00"
+            value="26,00"
             type="Minecraft"
             link="/products/minecraft"
           />
