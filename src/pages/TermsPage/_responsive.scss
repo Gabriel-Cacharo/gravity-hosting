@@ -19,6 +19,14 @@
   .termsPageContainer .termsContainer .termContainer {
     min-width: 80%;
     max-width: 80%;
+
+    h5 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+    }
   }
 
   .termsPageContainer .termsContainer .termContainer.floatRight {
@@ -30,5 +38,13 @@
   .termsPageContainer .termsContainer .termContainer {
     min-width: 95%;
     max-width: 95%;
+
+    h5 {
+      font-size: 1.4rem;
+    }
+
+    p {
+      font-size: 0.85rem;
+    }
   }
 }
