@@ -71,7 +71,7 @@ function Home() {
           <Benefits
             name="Anti DDOs"
             description="Oferecemos uma excelente proteção Anti DDOS, proporcionando um uptime de
-              98%. Assim, evitamos que sua aplicação fique fora do ar."
+              99.99%. Assim, evitamos que sua aplicação fique fora do ar."
             imageType="armor"
           />
           <Benefits
